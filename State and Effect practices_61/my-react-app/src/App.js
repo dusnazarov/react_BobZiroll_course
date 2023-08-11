@@ -1,7 +1,7 @@
-// 1) - 1) WindowTracker.js //////////   State and Effect practices  61/////////////
+import React from "react"
+import WindowTracker from "./WindowTracker"
 
-// import React from "react"
-// import WindowTracker from "./WindowTracker"
+// 1) - 1) WindowTracker.js //////////   State and Effect practices  61/////////////
 
 // export default function App() {    
 //     return (
@@ -16,9 +16,6 @@
 
 
 // 2) - 2),3) WindowTracker.js////////////// State and Effect practices  61 //////
-
-import React from "react"
-import WindowTracker from "./WindowTracker"
 
 export default function App() {
    

@@ -1,5 +1,6 @@
+import React from "react"
+
 // 1) ////////////////////////////////////////////
-// import React from "react"
 
 // export default function WindowTracker() {
 //     return (
@@ -8,7 +9,6 @@
 // }
 
 // 2)  ////////////////////////////////////////////
-import React from "react"
 
 export default function WindowTracker() {
 
@@ -16,14 +16,13 @@ export default function WindowTracker() {
         window.addEventListener("resize", function() {
             console.log("Resized")
         })
-    },[])
+    }, [])
     return (
         <h1>Window width: {window.innerWidth}</h1>
     )
 }
 
 // 3)  ////////////////////////////////////////////
-// import React from "react"
 
 // export default function WindowTracker() {
 
